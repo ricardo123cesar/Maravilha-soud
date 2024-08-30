@@ -5,6 +5,7 @@
     --cor-primaria-3-: #161A1D;
     --cor-primaria-4-: #FFFFFF;
     --cor-primaria-5-: #660708;
+    --cor-primaria-6-: #480A0B;
 
     --cor-neutra-1-: #fff;
     --cor-neutra-2-: #1d1d1d;
@@ -12,5 +13,5 @@
 
 body {
     background-color: var(--cor-primaria-1-);
-    color: var(--cor-neutra-1-);
+    color: var(--cor-primaria-6-);
 }
