@@ -9,3 +9,7 @@
     --cor-neutra-1-: #fff;
     --cor-neutra-2-: #1d1d1d;
 }
+
+body {
+    background-color: var(--cor-primaria-1-);
+}
