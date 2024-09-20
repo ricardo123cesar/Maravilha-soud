@@ -10,6 +10,14 @@
     --cor-neutra-2-: #1d1d1d;
 }
 
+
+* {
+    font-family: "Poppins", sans-serif;
+margin: 0;
+padding: 0%;
+box-sizing: border-box;
+}
+
 body {
     background-color: var(--cor-primaria-1-);
     color: var(--cor-neutra-2-);
