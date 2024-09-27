@@ -1,3 +1,13 @@
+:root {
+--cor-primaria-1-: #0fe68c;
+--cor-primaria-2-: #ffffff;
+--cor-primaria-3-: #a8a8a8;
+--cor-primaria-4-: #000000;
+--cor-primaria-5-: #3f9b7c;
+
+--cor-neutra-1-: #fff;
+--cor-neutra-2-: #1d1d1d;
+}
 header {
     width: 100%;
     padding: 20px 8%;
@@ -14,4 +24,17 @@ header {
    font-size: 1.5rem;
    font-weight: 600;
    color: var(--cor-primaria-6);
+}
+
+.nav_lista {
+    display: flex;
+    list-style: none;
+    gap: 80px;
+    text-transform: uppercase;
+}
+
+.nav-item a {
+background-color:  var(--cor-primaria-1-);
+font-size: 1.2rem;
+font-weight: 600;
 }
