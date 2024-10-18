@@ -39,12 +39,12 @@ font-size: 1.2rem;
 font-weight: 600;
 }
 
-.nav-item a:hover {
+.nav-item:hover {
     background-color: var(--cor-primaria-2-)
  color: var(#fff)
 
 }
 
 .nav-item.ativo a {
-    
+
 }
