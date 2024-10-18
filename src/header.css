@@ -39,7 +39,7 @@ font-weight: 600;
 }
 
 .nav-item:hover {
-    background-color: var(--cor-primaria-2-);
+   background-color: var(--cor-primaria-4-);
 color: var(--cor-neutra-1-);
 cursor: pointer;
 border-radius: 10px;
