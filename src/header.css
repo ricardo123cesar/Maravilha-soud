@@ -33,16 +33,16 @@ header {
     text-transform: uppercase;
 }
 
-.nav-item a {
-background-color:  var(--cor-primaria-1-);
+.nav-item  {
 font-size: 1.2rem;
 font-weight: 600;
 }
 
 .nav-item:hover {
-    background-color: var(--cor-primaria-2-)
- color: var(#fff)
-
+    background-color: var(--cor-primaria-2-);
+color: var(--cor-neutra-1-);
+cursor: pointer;
+border-radius: 10px;
 }
 
 .nav-item.ativo a {
