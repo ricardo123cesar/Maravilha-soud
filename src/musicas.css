@@ -6,5 +6,25 @@ section {
 .secao {
     padding-right: 8%;
     padding-top: 2%;
-    
+
+}
+
+.titulo_section {
+    --cor-primaria-2-: #ffffff;
+    font-size: 1.5rem;
+}
+
+.moldura_videos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    padding: 0%;
+    margin: 0%;
+    list-style: none;
+}
+
+.video {
+    flex: 1 1 30%;
+    padding: 10%;
+    box-sizing: border-box;
 }
