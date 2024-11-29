@@ -46,7 +46,9 @@ header {
     border-radius: 10px;
 }
 
-.nav-item.ativo a {}
+.nav-item.ativo a {
+    text-decoration: none;
+}
 
 .nav_celular {
     display: none;
