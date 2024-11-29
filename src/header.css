@@ -1,13 +1,14 @@
 :root {
---cor-primaria-1-: #5b8a96b1;
---cor-primaria-2-: #ffffff;
---cor-primaria-3-: #a8a8a8;
---cor-primaria-4-: #000000;
---cor-primaria-5-: #6fa895;
+    --cor-primaria-1-: #0dff9aa8;
+    --cor-primaria-2-: #ffffff;
+    --cor-primaria-3-: #a8a8a8;
+    --cor-primaria-4-: #000000;
+    --cor-primaria-5-: #6fa895;
 
---cor-neutra-1-: #fff;
---cor-neutra-2-: #1d1d1d;
+    --cor-neutra-1-: #fff;
+    --cor-neutra-2-: #1d1d1d;
 }
+
 header {
     width: 100%;
     padding: 20px 8%;
@@ -21,9 +22,9 @@ header {
 }
 
 #logo {
-   font-size: 1.5rem;
-   font-weight: 600;
-   color: var(--cor-primaria-6);
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: var(--cor-primaria-6);
 }
 
 .nav_lista {
@@ -33,21 +34,19 @@ header {
     text-transform: uppercase;
 }
 
-.nav-item  {
-font-size: 1.2rem;
-font-weight: 600;
+.nav-item {
+    font-size: 1.2rem;
+    font-weight: 600;
 }
 
 .nav-item:hover {
-   background-color: var(--cor-primaria-4-);
-color: var(--cor-neutra-1-);
-cursor: pointer;
-border-radius: 10px;
+    background-color: var(--cor-primaria-4-);
+    color: var(--cor-neutra-1-);
+    cursor: pointer;
+    border-radius: 10px;
 }
 
-.nav-item.ativo a {
-
-}
+.nav-item.ativo a {}
 
 .nav_celular {
     display: none;
@@ -58,5 +57,5 @@ border-radius: 10px;
 }
 
 .nav_celular .ativo {
-display: block;
+    display: block;
 }
